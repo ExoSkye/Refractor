@@ -31,6 +31,7 @@ bool loadIndex::reload() {
         map[a] = b;
     }
     file.close();
+    return true;
 }
 
 loadIndex::~loadIndex() {
